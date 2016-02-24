@@ -1,7 +1,7 @@
 # Create a Slack Live Blog using Node.js, Express, RethinkDB, Socket.io, & Handlebars
 ##### Delivering content broadcasted by Slack in real-time
 #
-This respository is to be used alongside the technical write-up posted over at: ADD_MEDIUM_URL_HERE
+This respository is to be used alongside the technical write-up posted over on [Medium](https://medium.com/@caseymorrisus/create-a-slack-live-blog-using-node-js-express-rethinkdb-socket-io-handlebars-fcbf6e601fa5)
 
 
 ## Setup
