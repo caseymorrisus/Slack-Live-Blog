@@ -1,0 +1,32 @@
+{
+  "name": "slack-live-blog",
+  "version": "1.0.0",
+  "description": "Create a Slack Live Blog using Node.js, Express, RethinkDB, Socket.io, & Handlebars",
+  "main": "liveblog.js",
+  "scripts": {
+    "start": "node liveblog.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caseymorrisus/Slack-Live-Blog.git"
+  },
+  "author": "Casey Morris",
+  "license": "ISC",
+  "homepage": "https://github.com/caseymorrisus/Slack-Live-Blog",
+  "dependencies": {
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "express": "^4.1.2",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.1.0",
+    "method-override": "^1.0.0",
+    "moment": "^2.11.1",
+    "node-rest-client": "^1.8.0",
+    "rethinkdb": "^2.2.1",
+    "slack-client": "^1.5.1",
+    "socket.io": "^1.4.5"
+  },
+  "bin": {
+    "simple-server": "./start.js"
+  }
+}

@@ -1,0 +1,28 @@
+{{! Add stuff later}}
+<div class="header__inner">
+	<h1 class="h1 h--sm-margin">
+		Slack Live Blog
+	</h1>
+	<p class="p p--shadow">
+		Using Node.js, Express, RethinkDB, Handlebars, & Socket.io to deliver content broadcasted by Slack in real-time
+	</p>
+	<p class="p-sm p--shadow text--white text--credit">
+		Created by <a href="mailto:caseymorrisus@gmail.com">Casey Morris</a>
+	</p>
+	<section class="messages">
+		{{#each json}}
+			<article class="message">
+				{{ this.content }}
+				<span class="time"> {{ this.cleanTime }} </span>
+				<span class="image">
+					<img src="{{this.image}}" alt="Profile Image">
+				</span>
+				<span class="info">
+					{{ this.author }}
+				</span>
+			</article>
+		{{else}}
+			{{! No message to display }}
+		{{/each}}
+	</section>
+</div>
